@@ -21,6 +21,8 @@
 }
 
 body {
+    text-align: center;
+    align-items: center;
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
@@ -35,6 +37,8 @@ body {
     padding: env(safe-area-inset-top, 0px) env(safe-area-inset-right, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-left, 0px);
     text-transform:uppercase;
     width:100%;
+    
+    
 }
 
 /* Portrait layout (default) */
@@ -47,7 +51,8 @@ body {
     width:225px;                   /* text area width */
     text-align:center;
     padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
-    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+    margin:-115px 0px 0px -112px; 
+     /* offset vertical: half of image height and text area height */
                                    /* offset horizontal: half of text area width */
 }
 
@@ -68,6 +73,7 @@ h1 {
     overflow:visible;
     padding:0px;
     text-align:center;
+    color: #1B1B1B;
 }
 
 .event {
@@ -107,4 +113,21 @@ h1 {
     body {
         background-image:linear-gradient(to bottom, #585858 0%, #1B1B1B 51%);
     }
+}
+.formulario{
+    position: absolute;
+ background-color: #f5f5f5;
+ margin-left: 40%;
+ width: 25%;
+height: 40%;
+}
+.quadrado{
+   background-color: #4B946A;
+   max-width: 15%;
+   height: 240px;
+}
+h1{ font-family: 'Courier New', Courier, monospace;
+    color: rgb(253, 253, 252);
+    font-size: 50pt;
+
 }
